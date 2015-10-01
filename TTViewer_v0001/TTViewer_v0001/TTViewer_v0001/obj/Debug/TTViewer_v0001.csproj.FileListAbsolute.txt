@@ -1,0 +1,12 @@
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Debug\TTViewer_v0001.dll
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Debug\TTViewer_v0001.pdb
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Debug\Xamarin.Forms.Core.dll
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Debug\Xamarin.Forms.Core.xml
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Debug\TTViewer_v0001.csprojResolveAssemblyReference.cache
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Debug\TTViewer_v0001.dll
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Debug\TTViewer_v0001.pdb
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Debug\ObjsListView.xaml.g.cs
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Debug\ChildListView.xaml.g.cs
+E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Debug\ChildWebView.xaml.g.cs
