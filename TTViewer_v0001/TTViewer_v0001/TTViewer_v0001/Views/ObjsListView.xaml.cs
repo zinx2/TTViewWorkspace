@@ -24,4 +24,5 @@ namespace TTViewer_v0001.Views
             Navigation.PushAsync(new ChildListView());
         }
     }
+    //그러게
 }
