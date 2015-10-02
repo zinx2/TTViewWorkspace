@@ -69,7 +69,5 @@ namespace TTViewer_v0001.ViewModels
         {
             IsBusy = false;
         }
-
-
     }
 }

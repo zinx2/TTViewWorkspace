@@ -10,68 +10,69 @@ namespace TTViewer_v0001.Models
     public class ObjBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
-        public ObjBase(string thumb, string title, string author, string summary)
+        public ObjBase(string main_thumb, string main_title, string author, string summary)
         {
-            Thumb = thumb;
-            Title = title;
+            MainThumb = main_thumb;
+            MainTitle = main_title;
             Author = author;
             Summary = summary;
         }
-        private string _thumb;
-        public string Thumb
+        private string mainThumb;
+        public string MainThumb
         {
             get
             {
-                return _thumb;
+                return mainThumb;
             }
             set
             {
-                _thumb = value;
-                OnPropertyChanged("Thumb");
+                mainThumb = value;
+                OnPropertyChanged("MainThumb");
             }
         }
 
-        private string _title;
-        public string Title
+        private string mainTitle;
+        public string MainTitle
         {
             get
             {
-                return _title;
+                return mainTitle;
             }
             set
             {
-                _title = value;
-                OnPropertyChanged("Title");
+                mainTitle = value;
+                OnPropertyChanged("MainTitle");
             }
         }
 
-        private string _author;
+        private string author;
         public string Author
         {
             get
             {
-                return _author;
+                return author;
             }
             set
             {
-                _author = value;
+                author = value;
                 OnPropertyChanged("Author");
             }
         }
 
-        private string _summary;
+        private string summary;
         public string Summary
         {
             get
             {
-                return _summary;
+                return summary;
             }
             set
             {
-                _summary = value;
+                summary = value;
                 OnPropertyChanged("Summary");
             }
         }
+
 
         public virtual void OnPropertyChanged(string param)
         {

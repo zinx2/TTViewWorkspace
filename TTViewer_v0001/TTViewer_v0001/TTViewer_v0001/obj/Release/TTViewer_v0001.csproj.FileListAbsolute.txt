@@ -10,3 +10,15 @@ E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\
 E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\TTViewer_v0001.dll
 E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\TTViewer_v0001.pdb
 E:\0_Workspace\Xamarin\Project\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\TTViewer_v0001.csprojResolveAssemblyReference.cache
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\TTViewer_v0001.csprojResolveAssemblyReference.cache
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\ObjsListView.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\ChildListView.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\ChildWebView.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\TTViewer_v0001.dll
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\TTViewer_v0001.pdb
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\TTViewer_v0001.dll
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\TTViewer_v0001.pdb
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\Xamarin.Forms.Core.dll
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\Xamarin.Forms.Xaml.dll
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\Xamarin.Forms.Core.xml
+E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\Xamarin.Forms.Xaml.xml

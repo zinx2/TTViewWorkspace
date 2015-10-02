@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="TTViewer_v0001\TTViewer_v0001\TTViewer_v0001.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TTViewer_v0001\TTViewer_v0001\Views\ChildListView.xaml">
+    <Files>
+      <File FileName="TTViewer_v0001\TTViewer_v0001\Views\ChildListView.xaml" Line="9" Column="15" />
+      <File FileName="TTViewer_v0001\TTViewer_v0001.Droid\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="TTViewer_v0001\TTViewer_v0001.Droid\Resources\Resource.Designer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

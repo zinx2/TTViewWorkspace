@@ -36,9 +36,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Models\ChildListItem.cs" />
+    <Compile Include="Models\ChildListItemModel.cs" />
     <Compile Include="Models\ObjBase.cs" />
     <Compile Include="Models\ObjsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ChildListViewModel.cs" />
     <Compile Include="ViewModels\ObjsViewModel.cs" />
     <Compile Include="Views\ChildListView.xaml.cs">
       <DependentUpon>ChildListView.xaml</DependentUpon>
