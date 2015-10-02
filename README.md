@@ -9,4 +9,6 @@
 - conflict가 발생하면 에러 메시지 발생
 - conflict를 고치기 위해서는 conflict가 발생한 파일을 열어 파일을 수정해야 함
 - branch에서 master로 파일 추가는 가능함
+- branch에서 master로부터 업데이트 가능함
+- 반대도 가능함
 
