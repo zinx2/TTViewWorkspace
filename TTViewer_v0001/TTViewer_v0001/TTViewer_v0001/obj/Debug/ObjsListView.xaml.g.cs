@@ -14,7 +14,7 @@ namespace TTViewer_v0001.Views {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class ObjsListView : ContentPage {
+    public partial class ObjsListView : ContentView {
         
         private ListView listView;
         

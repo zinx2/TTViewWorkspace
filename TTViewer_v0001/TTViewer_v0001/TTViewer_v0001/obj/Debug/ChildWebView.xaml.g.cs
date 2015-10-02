@@ -14,7 +14,7 @@ namespace TTViewer_v0001.Views {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class ChildWebView : ContentPage {
+    public partial class ChildWebView : ContentView {
         
         private WebView webView;
         

@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace TTViewer_v0001.Views
 {
-    public partial class ChildWebView : ContentPage
+    public partial class ChildWebView : ContentView
     {
         public ChildWebView()
         {

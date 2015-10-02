@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TTViewer_v0001.Views.ObjsListView">
-  <AbsoluteLayout>
-    <StackLayout  AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
-      <!--<Button Command="{Binding PushViewCommand}" CommandParameter="Push" Text="Push To ChildListView"/>
+             x:Class="TTViewer_v0001.Views.ObjsListView" >
+  
+  <!--<StackLayout>-->
+    <!--<Button Command="{Binding PushViewCommand}" CommandParameter="Push" Text="Push To ChildListView"/>
     <Button Command="{Binding PushViewCommand}" CommandParameter="Pop" Text="Pop To ChildListView"/>-->
-      <!--<Button Clicked="OnPush" Text="Go To ChildListView"/>-->
-      <ListView x:Name="listView" ItemsSource="{Binding ObjsViewModelCollection}" ItemSelected="OnPush">
+    <!--<Button Clicked="OnPush" Text="Go To ChildListView"/>-->
+
+
+    <ListView x:Name="listView" ItemsSource="{Binding ObjsViewModelCollection}" >
         <ListView.ItemTemplate> 
           <DataTemplate>
             <TextCell Text="{Binding MainTitle}"/>
@@ -15,20 +17,4 @@
         </ListView.ItemTemplate>
       </ListView>
 
-    </StackLayout>
-    <ContentView x:Name="overlay"
-                 AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
-                 AbsoluteLayout.LayoutFlags="All"
-                 IsVisible="{Binding IsBusy}"
-                 BackgroundColor="#C0808080"
-                 Padding="10, 0">
-    </ContentView>
-
-    <ActivityIndicator
-      AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1"
-      AbsoluteLayout.LayoutFlags="All"
-      IsVisible="{Binding IsBusy}"
-      IsRunning="{Binding IsBusy}"/>
-
-  </AbsoluteLayout>
-</ContentPage>
+</ContentView>

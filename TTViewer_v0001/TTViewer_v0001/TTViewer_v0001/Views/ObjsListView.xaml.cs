@@ -10,20 +10,19 @@ using Xamarin.Forms;
 
 namespace TTViewer_v0001.Views
 {
-    public partial class ObjsListView : ContentPage
+    public partial class ObjsListView : ContentView
     {
 
         public ObjsListView()   
         {
+            //NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
             BindingContext = new ObjsViewModel();
         }
 
-        void OnPush(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new ChildListView());
-        }
+        //void OnPush(object sender, EventArgs e)
+        //{
+        //    Navigation.PushAsync(new ChildListView());
+        //}
     }
-    //그러게
-    //ghghghgh rmfjrp akfdldi
 }

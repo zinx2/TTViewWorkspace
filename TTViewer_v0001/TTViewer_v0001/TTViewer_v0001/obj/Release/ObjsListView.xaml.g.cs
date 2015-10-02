@@ -16,14 +16,8 @@ namespace TTViewer_v0001.Views {
     
     public partial class ObjsListView : ContentPage {
         
-        private ListView listView;
-        
-        private ContentView overlay;
-        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ObjsListView));
-            listView = this.FindByName<ListView>("listView");
-            overlay = this.FindByName<ContentView>("overlay");
         }
     }
 }
