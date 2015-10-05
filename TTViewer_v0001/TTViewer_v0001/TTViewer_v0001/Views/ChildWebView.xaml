@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TTViewer_v0001.Views.ChildWebView">
+<WebView xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="TTViewer_v0001.Views.ChildWebView"
+       x:Name="webView" Source="http://google.com" VerticalOptions="FillAndExpand" />
 
-  <StackLayout BackgroundColor="Purple" >
-    <WebView x:Name="webView" Source="http://google.com" VerticalOptions="FillAndExpand" />
-  </StackLayout>
-</ContentView>

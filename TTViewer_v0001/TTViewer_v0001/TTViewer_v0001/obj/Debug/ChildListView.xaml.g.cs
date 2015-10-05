@@ -18,12 +18,9 @@ namespace TTViewer_v0001.Views {
         
         private ListView listView;
         
-        private ContentView overlay;
-        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ChildListView));
             listView = this.FindByName<ListView>("listView");
-            overlay = this.FindByName<ContentView>("overlay");
         }
     }
 }
