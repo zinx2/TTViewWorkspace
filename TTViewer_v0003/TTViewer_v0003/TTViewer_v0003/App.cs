@@ -14,47 +14,7 @@ namespace TTViewer_v0003
         {
             MainPage = new NavigationPage(new MainView());
         }
-        private static ContentPage GetControlsPage(VisualElement mainPage)
-        {
-          
-            var controls = new ContentPage
-            {
-                Title = "Controls",
-                Content = new StackLayout
-                {
-                    Children =
-                    {
-                        new Label {
-                            XAlign = TextAlignment.Center,
-                            Text = "First Page"
-                        }
-                    }
-                 }
-
-            };
-            return controls;
-        }
-
-        private static ContentPage GetControlsPage2(VisualElement mainPage)
-        {
-
-            var controls = new ContentPage
-            {
-                Title = "2",
-                Content = new StackLayout
-                {
-                    Children =
-                    {
-                        new Label {
-                            XAlign = TextAlignment.Center,
-                            Text = "Second Page"
-                        }
-                    }
-                }
-
-            };
-            return controls;
-        }
+   
         protected override void OnStart()
         {
             // Handle when your app starts

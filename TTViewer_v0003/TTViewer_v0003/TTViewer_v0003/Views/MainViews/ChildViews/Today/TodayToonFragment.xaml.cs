@@ -17,7 +17,7 @@ namespace TTViewer_v0003.Views.MainViews.ChildViews.Today
 
         void OpenView(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new TodayToonView());
+            Navigation.PushAsync(new TodayToonView());
         }
     }
 }
