@@ -50,6 +50,7 @@
     <Compile Include="Views\MainViews\ChildViews\Finished\MainContentChildView_Finished.xaml.cs">
       <DependentUpon>MainContentChildView_Finished.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\MainViews\ChildViews\Genre\ImageResourceExtension.cs" />
     <Compile Include="Views\MainViews\ChildViews\Genre\MainContentChildView_Genre.xaml.cs">
       <DependentUpon>MainContentChildView_Genre.xaml</DependentUpon>
     </Compile>

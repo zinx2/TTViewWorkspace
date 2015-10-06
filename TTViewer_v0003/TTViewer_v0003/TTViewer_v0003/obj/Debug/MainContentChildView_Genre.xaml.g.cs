@@ -16,11 +16,8 @@ namespace TTViewer_v0003.Views.MainViews.ChildViews.Genre {
     
     public partial class MainContentChildView_Genre : ContentView {
         
-        private ScrollView scv;
-        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainContentChildView_Genre));
-            scv = this.FindByName<ScrollView>("scv");
         }
     }
 }

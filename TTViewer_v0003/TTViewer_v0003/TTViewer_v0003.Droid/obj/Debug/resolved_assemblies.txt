@@ -21,11 +21,11 @@ E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Linq.Expressions.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Reflection.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Threading.Tasks.dll
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.ComponentModel.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Runtime.Extensions.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Linq.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Threading.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.IO.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.ComponentModel.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Dynamic.Runtime.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Reflection.Extensions.dll
