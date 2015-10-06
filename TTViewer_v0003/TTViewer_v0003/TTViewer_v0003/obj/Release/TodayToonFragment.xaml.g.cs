@@ -8,16 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TTViewer_v0003.Views.MainViews {
+namespace TTViewer_v0003.Views.MainViews.ChildViews.Today {
     using System;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;
     
     
-    public partial class MainContentView : TabbedPage {
+    public partial class TodayToonFragment : StackLayout {
         
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(MainContentView));
+            this.LoadFromXaml(typeof(TodayToonFragment));
         }
     }
 }

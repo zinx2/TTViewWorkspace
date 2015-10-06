@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewConstant="clr-namespace:TTViewer_v0003.Views;assembly=TTViewer_v0003"
+             x:Class="TTViewer_v0003.Views.MainViews.ChildViews.Today.NewToonFragment">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto"/>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <Label Grid.Column="0" Text="신규 만화" />
+    <Button Grid.Column="2" Text="더보기"/>
+  </Grid>
+
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="{x:Static viewConstant:ViewConstants.ImageWidthType_1_str}"/>
+      <ColumnDefinition Width="{x:Static viewConstant:ViewConstants.ImageWidthType_1_str}"/>
+      <ColumnDefinition Width="{x:Static viewConstant:ViewConstants.ImageWidthType_1_str}"/>
+    </Grid.ColumnDefinitions>
+    <StackLayout Grid.Column="0">
+      <Image WidthRequest="{x:Static viewConstant:ViewConstants.ImageWidthType_1}" Source="sample_mini_1.jpg"/>
+      <Label Text="Title"/>
+      <Label Text="Author"/>
+      <Label Text="Genre"/>
+    </StackLayout>
+    <StackLayout Grid.Column="1">
+      <Image WidthRequest="{x:Static viewConstant:ViewConstants.ImageWidthType_1}" Source="sample_mini_1.jpg"/>
+      <Label Text="Title"/>
+      <Label Text="Author"/>
+      <Label Text="Genre"/>
+    </StackLayout>
+    <StackLayout Grid.Column="2">
+      <Image WidthRequest="{x:Static viewConstant:ViewConstants.ImageWidthType_1}" Source="sample_mini_1.jpg"/>
+      <Label Text="Title"/>
+      <Label Text="Author"/>
+      <Label Text="Genre"/>
+    </StackLayout>
+  </Grid>
+  </StackLayout>

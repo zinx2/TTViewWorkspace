@@ -7,6 +7,14 @@ E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\bin\Relea
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\TTViewer_v0003.csprojResolveAssemblyReference.cache
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\MainView.xaml.g.cs
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\SlideMenuView.xaml.g.cs
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\MainContentView.xaml.g.cs
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\TTViewer_v0003.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\TTViewer_v0003.pdb
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\MainContentChildView_Genre.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\MainContentChildView_Today.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\MainContentChildView_Date.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\MainContentChildView_Book.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\MainContentChildView_Finished.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\TodayToonView.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\TodayToonFragment.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\TopRankingFragment.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Release\NewToonFragment.xaml.g.cs

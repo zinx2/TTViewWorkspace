@@ -11,10 +11,46 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static int icon=0x7f020000;
-        public static int monoandroidsplash=0x7f020001;
+        public static int back=0x7f020000;
+        public static int icon=0x7f020001;
+        public static int monoandroidsplash=0x7f020002;
+        public static int red=0x7f020003;
+        public static int sample01=0x7f020004;
+        public static int sample02=0x7f020005;
+        public static int sample03=0x7f020006;
+        public static int sample04=0x7f020007;
+        public static int sample05=0x7f020008;
+        public static int sample06=0x7f020009;
+        public static int sample07=0x7f02000a;
+        public static int sample08=0x7f02000b;
+        public static int sample09=0x7f02000c;
+        public static int sample10=0x7f02000d;
+        public static int sample11=0x7f02000e;
+        public static int sample12=0x7f02000f;
+        public static int sample13=0x7f020010;
+        public static int sample14=0x7f020011;
+        public static int sample15=0x7f020012;
+        public static int sample16=0x7f020013;
+        public static int sample17=0x7f020014;
+        public static int sample18=0x7f020015;
+        public static int sample19=0x7f020016;
+        public static int sample20=0x7f020017;
+        public static int sample21=0x7f020018;
+        public static int sample22=0x7f020019;
+        public static int sample23=0x7f02001a;
+        public static int sample24=0x7f02001b;
+        public static int sample25=0x7f02001c;
+        public static int sample26=0x7f02001d;
+        public static int sample27=0x7f02001e;
+        public static int sample28=0x7f02001f;
+        public static int sample29=0x7f020020;
+        public static int sample30=0x7f020021;
+        public static int sample31=0x7f020022;
+        public static int sample32=0x7f020023;
     }
     public static final class style {
-        public static int Mono_Android_Theme_Splash=0x7f030000;
+        public static int CustomActionBarTheme=0x7f030000;
+        public static int Mono_Android_Theme_Splash=0x7f030002;
+        public static int MyActionBar=0x7f030001;
     }
 }

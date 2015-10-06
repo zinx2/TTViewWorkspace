@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TTViewer_v0003.Views.MainViews.ChildViews.Today.TopRankingFragment">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto"/>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <Label Grid.Column="0" Text="Top 랭킹" />
+    <Button Grid.Column="2"  Text="더보기"/>
+  </Grid>
+
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="100"/>
+      <RowDefinition Height="100"/>
+      <RowDefinition Height="100"/>
+      <RowDefinition Height="100"/>
+      <RowDefinition Height="100"/>
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="50"/>
+      <ColumnDefinition Width="100"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+
+    <Label Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="1"></Label>
+    <Label Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="2"></Label>
+    <Label Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="3"></Label>
+    <Label Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="4"></Label>
+    <Label Grid.Row="4" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="5"></Label>
+
+    <Image Grid.Row="0" Grid.Column="1" WidthRequest="100" Source="sample01.jpg"></Image>
+    <Image Grid.Row="1" Grid.Column="1" WidthRequest="100" Source="sample02.jpg"></Image>
+    <Image Grid.Row="2" Grid.Column="1" WidthRequest="100" Source="sample03.jpg"></Image>
+    <Image Grid.Row="3" Grid.Column="1" WidthRequest="100" Source="sample04.jpg"></Image>
+    <Image Grid.Row="4" Grid.Column="1" WidthRequest="100" Source="sample05.jpg"></Image>
+
+    <Label Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title1"></Label>
+    <Label Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title2"></Label>
+    <Label Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title3"></Label>
+    <Label Grid.Row="3" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title4"></Label>
+    <Label Grid.Row="4" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title5"></Label>
+
+  </Grid>
+</StackLayout>

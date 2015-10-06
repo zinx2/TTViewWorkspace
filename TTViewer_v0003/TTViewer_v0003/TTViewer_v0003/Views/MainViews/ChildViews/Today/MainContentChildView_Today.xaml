@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewConstant="clr-namespace:TTViewer_v0003.Views;assembly=TTViewer_v0003"
+             xmlns:viewChild="clr-namespace:TTViewer_v0003.Views.MainViews.ChildViews.Today;assembly=TTViewer_v0003"
              x:Class="TTViewer_v0003.Views.MainViews.ChildViews.Today.MainContentChildView_Today">
-  <Label Text="ChildView Today" VerticalOptions="Center" HorizontalOptions="Center" />
+
+  <ScrollView>
+    <StackLayout>
+      <Image
+        WidthRequest="{x:Static viewConstant:ViewConstants.DeviceScreenWidth_double}"
+        Source="sample03.jpg"
+              HorizontalOptions="Center"/>
+      <viewChild:TodayToonFragment/>
+      <viewChild:TopRankingFragment/>
+      <viewChild:NewToonFragment/>
+
+    </StackLayout>
+  </ScrollView>
 </ContentView>
