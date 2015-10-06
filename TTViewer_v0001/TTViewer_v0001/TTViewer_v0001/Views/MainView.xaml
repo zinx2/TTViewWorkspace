@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TTViewer_v0001.Views.MainView" >
+  <AbsoluteLayout>
+    <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" x:Name="MainStack" BackgroundColor="Teal">
+
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="45" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Row="0" Grid.Column="0" Text="Prev" x:Name="prev_btn" Clicked="OnPop"/>
+        <Label Grid.Row="0" Grid.Column="1" Text="타이틀"  XAlign="Center" YAlign="Center" x:Name="title_lb" TextColor="Maroon"/>
+        <Button Grid.Row="0" Grid.Column="2" Text="Next" x:Name="next_btn" Clicked="OnPush"/>
+      </Grid>
+      <!--<WebView x:Name="webView" Source="http://google.com" VerticalOptions="FillAndExpand" />-->
+    </StackLayout>
+
+    <ContentView x:Name="overlay"
+             AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+             AbsoluteLayout.LayoutFlags="All"
+             IsVisible="{Binding IsBusy}"
+             BackgroundColor="#C0808080"
+             Padding="10, 0">
+    </ContentView>
+
+    <ActivityIndicator
+      AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.5, 0.5"
+      AbsoluteLayout.LayoutFlags="All"
+      IsVisible="{Binding IsBusy}"
+      IsRunning="{Binding IsBusy}"/>
+  </AbsoluteLayout>
+</ContentPage>

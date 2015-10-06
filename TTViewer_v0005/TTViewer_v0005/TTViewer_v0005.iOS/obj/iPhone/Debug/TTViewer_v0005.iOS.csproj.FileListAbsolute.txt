@@ -1,0 +1,12 @@
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\bin\iPhone\Debug\TTViewer_v0005iOS.exe
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\bin\iPhone\Debug\TTViewer_v0005iOS.pdb
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.xml
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\obj\iPhone\Debug\optimized\
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\obj\iPhone\Debug\TTViewer_v0005.iOS.csprojResolveAssemblyReference.cache
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\obj\iPhone\Debug\MainView.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\obj\iPhone\Debug\TTViewer_v0005iOS.exe
+E:\Github\TTViewWorkspace\TTViewer_v0005\TTViewer_v0005\TTViewer_v0005.iOS\obj\iPhone\Debug\TTViewer_v0005iOS.pdb

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TTViewer_v0003.Views.MainViews.SlideMenuView"
+             Title="터치툰"
+             Icon = "back.png"
+             BackgroundColor="Red">
+  <StackLayout>
+    <Button Text="회원가입"></Button>
+    <Button Text="로그인"></Button>
+    <Button Text="코인충전"></Button>
+    <Button Text="공지사항"></Button>
+    <Button Text="고객지원"></Button>
+    <Button Text="환경설정"></Button>
+  </StackLayout>
+</ContentPage>

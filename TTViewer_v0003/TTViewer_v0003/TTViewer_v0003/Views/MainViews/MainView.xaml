@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:view="clr-namespace:TTViewer_v0003.Views.MainViews;assembly=TTViewer_v0003"
+             x:Class="TTViewer_v0003.Views.MainViews.MainView"
+             Title="터치툰"
+             BackgroundImage="red.png">
+  
+  <MasterDetailPage.Master>
+    <view:SlideMenuView/>
+  </MasterDetailPage.Master>
+  
+  <MasterDetailPage.Detail>
+    <view:MainContentView/>
+  </MasterDetailPage.Detail>
+</MasterDetailPage>

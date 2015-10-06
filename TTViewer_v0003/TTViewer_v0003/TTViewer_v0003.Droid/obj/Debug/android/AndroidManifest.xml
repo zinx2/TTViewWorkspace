@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="TTViewer_v0003.Droid">
+  <uses-sdk android:minSdkVersion="15" />
+  <application android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:label="터치툰" android:theme="@style/CustomActionBarTheme" android:name="md534aec582e4bfa7e5b7325ec8e752a2e5.MainActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TTViewer_v0003.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.TTViewer_v0003.Droid" />
+      </intent-filter>
+    </receiver>
+    <activity android:configChanges="orientation|screenSize" android:label="터치툰" android:theme="@style/Mono.Android.Theme.Splash" android:name="ttviewer_v0003.droid.TrialSplashScreen" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

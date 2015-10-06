@@ -1,0 +1,9 @@
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\bin\Debug\TTViewer_v0004.dll
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\bin\Debug\TTViewer_v0004.pdb
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\bin\Debug\Xamarin.Forms.Core.dll
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\bin\Debug\Xamarin.Forms.Core.xml
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\obj\Debug\TTViewer_v0004.csprojResolveAssemblyReference.cache
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\obj\Debug\TTViewer_v0004.dll
+E:\Github\TTViewWorkspace\TTViewer_v0004\TTViewer_v0004\TTViewer_v0004\obj\Debug\TTViewer_v0004.pdb

@@ -1,0 +1,16 @@
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\bin\Debug\TTViewer_v0003.dll
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\bin\Debug\TTViewer_v0003.pdb
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\bin\Debug\Xamarin.Forms.Core.dll
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\bin\Debug\Xamarin.Forms.Core.xml
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\TTViewer_v0003.csprojResolveAssemblyReference.cache
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\MainView.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\SlideMenuView.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\TTViewer_v0003.dll
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\TTViewer_v0003.pdb
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\MainContentChildView_Genre.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\MainContentChildView_Today.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\MainContentChildView_Date.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\MainContentChildView_Book.xaml.g.cs
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003\obj\Debug\MainContentChildView_Finished.xaml.g.cs
