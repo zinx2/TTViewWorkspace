@@ -15,8 +15,8 @@ E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\Xamarin.Forms.Xaml.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.ComponentModel.Composition.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Resources.ResourceManager.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Globalization.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Diagnostics.Debug.dll
+E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Globalization.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Collections.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Linq.Expressions.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Debug\assemblies\System.Reflection.dll

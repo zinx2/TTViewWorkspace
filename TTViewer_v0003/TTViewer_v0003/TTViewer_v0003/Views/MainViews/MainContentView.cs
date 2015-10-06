@@ -86,6 +86,7 @@ namespace TTViewer_v0003.Views.MainViews
             }
 
             Content = relativeLayout;
+
         }
 
         CarouselLayout CreatePagesCarousel()

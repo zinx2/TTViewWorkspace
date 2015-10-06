@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="DeviceInfo.cs" />
     <Compile Include="Factory\MainViewFactory.cs" />
     <Compile Include="ViewModels\GenreChildViewModel.cs" />
     <Compile Include="ViewModels\IMainContentChildViewModel.cs" />
@@ -53,6 +54,18 @@
     <Compile Include="Views\MainViews\ChildViews\Genre\ImageResourceExtension.cs" />
     <Compile Include="Views\MainViews\ChildViews\Genre\MainContentChildView_Genre.xaml.cs">
       <DependentUpon>MainContentChildView_Genre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\ChildViews\Today\NewToonFragment.xaml.cs">
+      <DependentUpon>NewToonFragment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\ChildViews\Today\TodayToonFragment.xaml.cs">
+      <DependentUpon>TodayToonFragment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\ChildViews\Today\TodayToonView.xaml.cs">
+      <DependentUpon>TodayToonView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainViews\ChildViews\Today\TopRankingFragment.xaml.cs">
+      <DependentUpon>TopRankingFragment.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainViews\ChildViews\Today\GalleryView.cs" />
     <Compile Include="Views\MainViews\ChildViews\Today\MainContentChildView_Today.xaml.cs">
@@ -74,6 +87,7 @@
     <Compile Include="Views\MainViews\SlideMenuView.xaml.cs">
       <DependentUpon>SlideMenuView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ViewConstants.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
@@ -127,6 +141,30 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\MainViews\ChildViews\Finished\MainContentChildView_Finished.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Today\TodayToonFragment.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Today\TopRankingFragment.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Today\NewToonFragment.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Today\TodayToonView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

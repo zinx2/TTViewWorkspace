@@ -86,12 +86,6 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Xaml.dll",
-		"System.Diagnostics.Tracing.dll",
-		"System.Reflection.Emit.dll",
-		"System.Reflection.Emit.ILGeneration.dll",
-		"System.Reflection.Emit.Lightweight.dll",
-		"System.ServiceModel.Security.dll",
-		"System.Threading.Timer.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

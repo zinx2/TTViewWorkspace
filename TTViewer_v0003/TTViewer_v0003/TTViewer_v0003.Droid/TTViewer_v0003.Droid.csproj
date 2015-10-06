@@ -234,6 +234,10 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\sample30.jpg" />
     <AndroidResource Include="Resources\drawable-xxhdpi\sample31.jpg" />
     <AndroidResource Include="Resources\drawable-xxhdpi\sample32.jpg" />
+    <AndroidResource Include="Resources\drawable\sample_mini_1.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\sample_mini_1.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sample_mini_1.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\sample_mini_1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TTViewer_v0003\TTViewer_v0003.csproj">

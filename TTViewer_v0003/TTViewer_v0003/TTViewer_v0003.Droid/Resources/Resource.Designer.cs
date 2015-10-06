@@ -152,6 +152,9 @@ namespace TTViewer_v0003.Droid
 			// aapt resource value: 0x7f020023
 			public const int sample32 = 2130837539;
 			
+			// aapt resource value: 0x7f020024
+			public const int sample_mini_1 = 2130837540;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

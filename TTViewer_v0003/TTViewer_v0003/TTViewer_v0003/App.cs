@@ -12,23 +12,7 @@ namespace TTViewer_v0003
     {
         public App()
         {
-            // The root page of your application
-            //var mainTab = new ExtendedTabbedPage()
-            //{
-            //    Title = "XLabs",
-            //    SwipeEnabled = true,
-            //    TintColor = Color.Black,
-            //    BarTintColor = Color.Red,
-            //    Badges = { "1", "2", "3" },
-            //    //TabBarBackgroundImage = "ToolbarGradient2.png",
-            //    //TabBarSelectedImage = "blackbackground.png",
-            //};
-            
-            //var controls = GetControlsPage(MainPage);
-            //mainTab.Children.Add(GetControlsPage(MainPage));
-            //mainTab.Children.Add(GetControlsPage2(MainPage));
             MainPage = new NavigationPage(new MainView());
-
         }
         private static ContentPage GetControlsPage(VisualElement mainPage)
         {

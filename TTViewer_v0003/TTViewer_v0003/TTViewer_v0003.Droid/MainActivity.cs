@@ -22,6 +22,9 @@ namespace TTViewer_v0003.Droid
 
             var actionBar = this.ActionBar;
             actionBar.SetIcon(new ColorDrawable(Color.Transparent));
+
+            DeviceInfo.GetInstance.ScreenWidth = (int)Resources.DisplayMetrics.WidthPixels;
+            DeviceInfo.GetInstance.ScreenHeight = (int)Resources.DisplayMetrics.HeightPixels;
             //actionBar.SetBackgroundDrawable(new ColorDrawable(Color.Transparent));
             //actionBar.SetSplitBackgroundDrawable(new ColorDrawable(Color.Transparent));
             //actionBar.SetStackedBackgroundDrawable(new ColorDrawable(Color.Transparent));

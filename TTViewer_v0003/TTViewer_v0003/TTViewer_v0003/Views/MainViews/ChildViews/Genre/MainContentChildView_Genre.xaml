@@ -1,58 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:TTViewer_v0003.Images;assembly=TTViewer_v0003"
+             xmlns:viewConstant="clr-namespace:TTViewer_v0003.Views;assembly=TTViewer_v0003"
              x:Class="TTViewer_v0003.Views.MainViews.ChildViews.Genre.MainContentChildView_Genre">
+  <ScrollView>
   <StackLayout>
-    <Image Source="sample03.jpg"
+    <Image
+      Source="sample03.jpg"
             HorizontalOptions="Center"/>
+    <!--<viewChild:TodayToonGrid/>
+    <viewChild:TopRankingGrid/>-->
 
-    <Grid>
-      <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="Auto"/>
-        <ColumnDefinition Width="*"/>
-        <ColumnDefinition Width="Auto"/>
-      </Grid.ColumnDefinitions>
-      <Label Grid.Column="0" Text="오늘의 만화" />
-      <Button Grid.Column="2" Text="더보기"/>
-    </Grid>
-
-    <Grid>
-      <Grid.RowDefinitions>
-        <RowDefinition Height="70"/>
-        <RowDefinition Height="70"/>
-        <RowDefinition Height="70"/>
-        <RowDefinition Height="70"/>
-        <RowDefinition Height="70"/>
-      </Grid.RowDefinitions>
-
-      <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="50"/>
-        <ColumnDefinition Width="70"/>
-        <ColumnDefinition Width="*"/>
-      </Grid.ColumnDefinitions>
-
-      <Label Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="1"></Label>
-      <Label Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="2"></Label>
-      <Label Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="3"></Label>
-      <Label Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="4"></Label>
-      <Label Grid.Row="4" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Text="5"></Label>
-
-      <Image Grid.Row="0" Grid.Column="1" WidthRequest="70" Source="sample01"></Image>
-      <Image Grid.Row="1" Grid.Column="1" WidthRequest="70" Source="sample02"></Image>
-      <Image Grid.Row="2" Grid.Column="1" WidthRequest="70" Source="sample03"></Image>
-      <Image Grid.Row="3" Grid.Column="1" WidthRequest="70" Source="sample04"></Image>
-      <Image Grid.Row="4" Grid.Column="1" WidthRequest="70" Source="sample05"></Image>
-
-      <Label Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title1"></Label>
-      <Label Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title2"></Label>
-      <Label Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title3"></Label>
-      <Label Grid.Row="3" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title4"></Label>
-      <Label Grid.Row="4" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="Title5"></Label>
-      
-    </Grid>
-    
-    
-    
   </StackLayout>
+  </ScrollView>
 </ContentView>

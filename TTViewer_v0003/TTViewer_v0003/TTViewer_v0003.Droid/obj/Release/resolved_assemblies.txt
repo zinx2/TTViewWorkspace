@@ -10,12 +10,5 @@ E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\Xamarin.Forms.Core.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\Xamarin.Forms.Xaml.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.Diagnostics.Tracing.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.Reflection.Emit.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.Reflection.Emit.ILGeneration.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.Reflection.Emit.Lightweight.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.ServiceModel.Security.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.Threading.Timer.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.Runtime.Serialization.dll
 E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.Net.Http.dll
-E:\Github\TTViewWorkspace\TTViewer_v0003\TTViewer_v0003\TTViewer_v0003.Droid\obj\Release\android\assets\System.ServiceModel.dll
