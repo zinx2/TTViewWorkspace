@@ -22,4 +22,3 @@ E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Relea
 E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\Xamarin.Forms.Xaml.dll
 E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\Xamarin.Forms.Core.xml
 E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\bin\Release\Xamarin.Forms.Xaml.xml
-E:\Github\TTViewWorkspace\TTViewer_v0001\TTViewer_v0001\TTViewer_v0001\obj\Release\TItleView.xaml.g.cs

@@ -27,6 +27,7 @@ namespace TTViewer_v0001.ViewModels
 
         private async Task ready()
         {
+            RunIndicator();
             ChildListItemModel childListItemModel = new ChildListItemModel();
             bool taskResult = await childListItemModel.downloadTask();
             if (taskResult)
@@ -37,7 +38,7 @@ namespace TTViewer_v0001.ViewModels
                     childListItemModelCollection.Add(childListItem);
                 }
             }
-            MainViewModel.GetInstance().RunIndicator()
+            StopIndicator();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace TTViewer_v0001.Views
 {
-    public partial class ChildListView : ContentView
+    public partial class ChildListView : ContentPage
     {
         public ChildListView()
         {
@@ -16,5 +16,9 @@ namespace TTViewer_v0001.Views
             BindingContext = new ChildListViewModel();
         }
 
+        void OnPush(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new ChildWebView());
+        }
     }
 }

@@ -23,7 +23,7 @@ namespace TTViewer_v0001.Models
 
         public async Task<bool> downloadTask()
         {
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i < 10; i++)
             {
                 objList.Add(new ObjBase("thumb" + i, "title" + i, "author" + i, "summary" + i));
             }

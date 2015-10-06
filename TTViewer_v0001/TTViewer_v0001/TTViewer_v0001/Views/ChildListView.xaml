@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TTViewer_v0001.Views.ChildListView" BackgroundColor="Lime">
+             x:Class="TTViewer_v0001.Views.ChildListView">
 
+  <AbsoluteLayout>
+    <StackLayout  AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+      <Button Clicked="OnPush" Text="Go To ChildWebView"/>
       <ListView x:Name="listView" ItemsSource="{Binding ObjsViewModelCollection}">
         <ListView.ItemTemplate>
           <DataTemplate>
@@ -11,4 +14,20 @@
         </ListView.ItemTemplate>
       </ListView>
 
-</ContentView>
+    </StackLayout>
+    <ContentView x:Name="overlay"
+                 AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                 AbsoluteLayout.LayoutFlags="All"
+                 IsVisible="{Binding IsBusy}"
+                 BackgroundColor="#C0808080"
+                 Padding="10, 0">
+    </ContentView>
+
+    <ActivityIndicator
+      AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.5, 0.5"
+      AbsoluteLayout.LayoutFlags="All"
+      IsVisible="{Binding IsBusy}"
+      IsRunning="{Binding IsBusy}"/>
+
+  </AbsoluteLayout>
+</ContentPage>

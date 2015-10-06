@@ -12,8 +12,7 @@ namespace TTViewer_v0001
         public App()
         {
             // The root page of your application
-            MainPage = MainView.GetInstance();
-            
+            MainPage = new NavigationPage(new ObjsListView());
         }
 
         protected override void OnStart()

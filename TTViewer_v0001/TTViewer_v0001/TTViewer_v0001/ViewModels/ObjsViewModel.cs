@@ -10,7 +10,7 @@ using TTViewer_v0001.Views;
 
 namespace TTViewer_v0001.ViewModels
 {
-    public class ObjsViewModel
+    public class ObjsViewModel : INotifyPropertyChanged
     {
         private ObservableCollection<ObjBase> objsViewModelCollection = new ObservableCollection<ObjBase>();
         public ObservableCollection<ObjBase> ObjsViewModelCollection
@@ -28,6 +28,7 @@ namespace TTViewer_v0001.ViewModels
 
         private async Task ready()
         {
+            RunIndicator();
             ObjsModel objsModel = new ObjsModel();
             bool taskResult = await objsModel.downloadTask();
             if (taskResult)
@@ -38,9 +39,35 @@ namespace TTViewer_v0001.ViewModels
                     objsViewModelCollection.Add(objBase);
                 }
             }
-            MainViewModel.GetInstance().StopIndicator();
+            StopIndicator();
         }
 
-        
+        public event PropertyChangedEventHandler PropertyChanged;
+        private bool _isBusy;
+        public bool IsBusy
+        {
+            get { return _isBusy; }
+            set
+            {
+                _isBusy = value;
+                OnPropertyChanged("IsBusy");
+            }
+        }
+        public virtual void OnPropertyChanged(string param)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChangedEventArgs arg = new PropertyChangedEventArgs(param);
+                PropertyChanged(this, arg);
+            }
+        }
+        private void RunIndicator()
+        {
+            IsBusy = true;
+        }
+        private void StopIndicator()
+        {
+            IsBusy = false;
+        }
     }
 }

@@ -14,13 +14,10 @@ namespace TTViewer_v0001.Views {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class ChildListView : ContentView {
-        
-        private ListView listView;
+    public partial class ChildListView : ContentPage {
         
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ChildListView));
-            listView = this.FindByName<ListView>("listView");
         }
     }
 }

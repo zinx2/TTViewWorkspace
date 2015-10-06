@@ -14,10 +14,13 @@ namespace TTViewer_v0001.Views {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class ChildWebView : WebView {
+    public partial class ChildWebView : ContentPage {
+        
+        private WebView webView;
         
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ChildWebView));
+            webView = this.FindByName<WebView>("webView");
         }
     }
 }

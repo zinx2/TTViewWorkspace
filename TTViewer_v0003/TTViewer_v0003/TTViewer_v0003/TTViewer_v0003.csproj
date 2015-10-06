@@ -40,24 +40,26 @@
     <Compile Include="ViewModels\GenreChildViewModel.cs" />
     <Compile Include="ViewModels\IMainContentChildViewModel.cs" />
     <Compile Include="ViewModels\SwitcherMainPageViewModel.cs" />
-    <Compile Include="Views\MainViews\MainContentChildView_Book.xaml.cs">
+    <Compile Include="ViewModels\SwitchGalleryViewModel.cs" />
+    <Compile Include="Views\MainViews\ChildViews\Book\MainContentChildView_Book.xaml.cs">
       <DependentUpon>MainContentChildView_Book.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\MainViews\MainContentChildView_Date.xaml.cs">
+    <Compile Include="Views\MainViews\ChildViews\Date\MainContentChildView_Date.xaml.cs">
       <DependentUpon>MainContentChildView_Date.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\MainViews\MainContentChildView_Finished.xaml.cs">
+    <Compile Include="Views\MainViews\ChildViews\Finished\MainContentChildView_Finished.xaml.cs">
       <DependentUpon>MainContentChildView_Finished.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\MainViews\MainContentChildView_Genre.xaml.cs">
+    <Compile Include="Views\MainViews\ChildViews\Genre\MainContentChildView_Genre.xaml.cs">
       <DependentUpon>MainContentChildView_Genre.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\MainViews\MainContentChildView_Today.xaml.cs">
+    <Compile Include="Views\MainViews\ChildViews\Today\GalleryView.cs" />
+    <Compile Include="Views\MainViews\ChildViews\Today\MainContentChildView_Today.xaml.cs">
       <DependentUpon>MainContentChildView_Today.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainViews\MainContentView.cs" />
     <Compile Include="Views\TabViews\HomePage.cs" />
-    <Compile Include="Views\MainViews\MainContentChildView.cs" />
+    <Compile Include="Views\MainViews\ChildViews\MainContentChildView.cs" />
     <Compile Include="Views\TabViews\PagerIndicatorDots.cs" />
     <Compile Include="Views\TabViews\PagerIndicatorTabs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -99,31 +101,31 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\MainViews\MainContentChildView_Genre.xaml">
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Genre\MainContentChildView_Genre.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\MainViews\MainContentChildView_Today.xaml">
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Today\MainContentChildView_Today.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\MainViews\MainContentChildView_Date.xaml">
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Date\MainContentChildView_Date.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\MainViews\MainContentChildView_Book.xaml">
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Book\MainContentChildView_Book.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\MainViews\MainContentChildView_Finished.xaml">
+    <EmbeddedResource Include="Views\MainViews\ChildViews\Finished\MainContentChildView_Finished.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
